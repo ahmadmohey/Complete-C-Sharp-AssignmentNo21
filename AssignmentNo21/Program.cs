@@ -17,7 +17,7 @@ namespace AssignmentNo21
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
             CancellationToken token = cancellationTokenSource.Token;
 
-            Task t1 = new Task(() =>
+            t1 = new Task(() =>
             {
                 int max = 0;
                 for (int i = 1; i <= loopConditionCount; i++)
